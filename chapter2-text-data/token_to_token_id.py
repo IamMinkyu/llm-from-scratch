@@ -37,4 +37,6 @@ print(ids)
 print(tokenizer.decode(ids))
 
 text = "Hello, do you like tea?"
+
+# 어휘사전에 없는 경우 오류가 발생한다.
 print(tokenizer.encode(text))
